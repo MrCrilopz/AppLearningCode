@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">AppLearningCode</string>
+
+    <string name="lblNombre">Nombre</string>
+    <string name="lblUser">Usuario</string>
+    <string name="lblPassword">Contraseña</string>
+    <string name="lblRepeatPassword">Repetir Contraseña</string>
+    <string name="btnAcceder">Acceder</string>
+
 </resources>
