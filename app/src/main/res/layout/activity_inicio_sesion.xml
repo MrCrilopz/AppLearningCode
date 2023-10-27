@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".InicioSesionActivity">
@@ -17,30 +18,35 @@
             android:src="@drawable/ic_launcher_background" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/lblIngreseUser"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Ingrese su usuario" />
+            android:text="@string/lblIngreseUser" />
 
         <EditText
             android:id="@+id/txtUsuario"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="text"
-            android:hint="Inicio de sesión" />
+            android:inputType="text" />
 
         <TextView
+            android:id="@+id/lblIngresePassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Ingrese su contraseña" />
+            android:text="@string/lblIngresePassword" />
 
         <EditText
             android:id="@+id/txtConstrasenia"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="text"
-            android:hint="Usuario" />
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/btnIniciarSesion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnIniciarSesion" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
