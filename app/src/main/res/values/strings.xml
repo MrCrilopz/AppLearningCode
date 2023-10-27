@@ -24,4 +24,15 @@
     //layout de canales
     <string name="lblCanales">Canales</string>
 
+    //layout de agregar reto
+    <string name="lblAgregarReto">Agregar Reto</string>
+    <string name="lblTituloNuevoReto">Titulo del reto</string>
+    <string name="lblDescripcionNuevoReto">Descripción del reto</string>
+    <string name="lblComplejidadNuevoReto">Complejidad del reto</string>
+    <string name="radioFacil">Fácil</string>
+    <string name="radioMedio">Medio</string>
+    <string name="radioDificil">Dificil</string>
+    <string name="btnCrearReto">Crear reto</string>
+
+
 </resources>
