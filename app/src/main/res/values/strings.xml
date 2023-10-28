@@ -1,10 +1,22 @@
 <resources>
     <string name="app_name">AppLearningCode</string>
 
+    //layout de registro
     <string name="lblNombre">Nombre</string>
     <string name="lblUser">Usuario</string>
     <string name="lblPassword">Contraseña</string>
     <string name="lblRepeatPassword">Repetir Contraseña</string>
-    <string name="btnAcceder">Acceder</string>
+    <string name="btnRegistrar">Registrar</string>
+
+    //layout de inicio de sesion
+    <string name="btnIniciarSesion">Iniciar Sesión</string>
+    <string name="btnIniciarSesionGoogle">Iniciar con Google</string>
+    <string name="lblIngresePassword">Contraseña</string>
+    <string name="lblIngreseUser">Usuario</string>
+    <string name="inicio_sesion">Inicio Sesion</string>
+    <string name="txtEmail">Email</string>
+    <string name="lblEmail">Correo</string>
+    <string name="btnSignIn">Iniciar Sesion</string>
+    <string name="btnRegister">Registrarse</string>
 
 </resources>

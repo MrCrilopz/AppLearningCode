@@ -13,19 +13,21 @@
         android:theme="@style/Theme.AppCompat"
         tools:targetApi="31">
         <activity
-            android:name=".RegistroActivity"
-            android:exported="false" />
-        <activity
-            android:name=".InicioSesionActivity"
-            android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.AppCompat">
+            android:name=".view.PrincipalActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".view.RegistroActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.InicioSesionActivity"
+            android:exported="true"/>
+
     </application>
 
 </manifest>
