@@ -12,15 +12,15 @@
         android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/imageView3"
+            android:id="@+id/imageView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/lblRegistro"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Registrate"
+            android:text="@string/lblRegistro"
             android:textSize="25dp"
             android:gravity="center"/>
 
@@ -29,7 +29,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/lblNombre"
-            android:textSize="20dp"/>
+            android:textSize="20dp" />
 
         <EditText
             android:id="@+id/txtName"
@@ -37,7 +37,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="text"
-            android:textSize="20dp"/>
+            android:textSize="20dp"
+            android:text="@string/lblNombre"/>
 
         <TextView
             android:id="@+id/lblEmail"
@@ -52,7 +53,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="text"
-            android:textSize="20dp"/>
+            android:textSize="20dp"
+            android:text=""/>
 
         <TextView
             android:id="@+id/lblUser"

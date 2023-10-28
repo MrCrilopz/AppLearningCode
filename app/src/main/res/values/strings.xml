@@ -7,6 +7,7 @@
     <string name="lblPassword">Contraseña</string>
     <string name="lblRepeatPassword">Repetir Contraseña</string>
     <string name="btnRegistrar">Registrar</string>
+    <string name="lblRegistro">Registro</string>
 
     //layout de inicio de sesion
     <string name="btnIniciarSesion">Iniciar Sesión</string>
@@ -18,5 +19,26 @@
     <string name="lblEmail">Correo</string>
     <string name="btnSignIn">Iniciar Sesion</string>
     <string name="btnRegister">Registrarse</string>
+
+
+    //layout de inicio
+    <string name="lblMisCanales">Mis canales</string>
+    <string name="btnInicio">Inicio</string>
+    <string name="btnAmigos">Amigos</string>
+    <string name="btnCanales">Canales</string>
+    <string name="btnNotifications">Notificaciones</string>
+
+    //layout de canales
+    <string name="lblCanales">Canales</string>
+
+    //layout de agregar reto
+    <string name="lblAgregarReto">Agregar Reto</string>
+    <string name="lblTituloNuevoReto">Titulo del reto</string>
+    <string name="lblDescripcionNuevoReto">Descripción del reto</string>
+    <string name="lblComplejidadNuevoReto">Complejidad del reto</string>
+    <string name="radioFacil">Fácil</string>
+    <string name="radioMedio">Medio</string>
+    <string name="radioDificil">Dificil</string>
+    <string name="btnCrearReto">Crear reto</string>
 
 </resources>
